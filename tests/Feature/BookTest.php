@@ -10,7 +10,7 @@ class BookTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function test_books_index_page_loads(): void
+    public function test_bisa_lihat_daftar_buku()
     {
         $book = Book::factory()->create();
 

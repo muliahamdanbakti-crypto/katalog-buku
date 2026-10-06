@@ -63,10 +63,6 @@
   </tbody>
 </table>
 
-<div style="margin-top:20px;">
-  {{ $books->links() }}
-</div>
-
 @if ($books->hasPages())
 <div style="margin-top:10px;">
   @if ($books->onFirstPage())
